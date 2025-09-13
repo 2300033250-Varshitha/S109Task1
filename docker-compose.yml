@@ -34,7 +34,7 @@ services:
       db:
         condition: service_healthy # wait for MySQL to pass healthcheck
     ports:
-      - "8083:8080"
+      - "8085:8080"
     networks:
       - ecommerce-net
 
